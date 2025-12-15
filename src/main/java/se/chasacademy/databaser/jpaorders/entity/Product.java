@@ -24,4 +24,45 @@ public class Product {
     private String activeFlag;
 
     // getters/setters
+
+
+    public Long getId() {
+        return id;
+    }
+
+    public void setId(Long id) {
+        this.id = id;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public String getDescription() {
+        return description;
+    }
+
+    public void setDescription(String description) {
+        this.description = description;
+    }
+
+    public Integer getUnitPriceCents() {
+        return unitPriceCents;
+    }
+
+    public void setUnitPriceCents(Integer unitPriceCents) {
+        this.unitPriceCents = unitPriceCents;
+    }
+
+    public String getActiveFlag() {
+        return activeFlag;
+    }
+
+    public void setActiveFlag(String activeFlag) {
+        this.activeFlag = activeFlag;
+    }
 }
